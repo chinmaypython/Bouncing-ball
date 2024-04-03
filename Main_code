@@ -10,7 +10,7 @@ WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 window_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), 0, 32)
 pygame.display.set_caption('Bouncing Ball')
-background = pygame.image.load(r"C:\Users\Rahul\Desktop\Untitled.png")
+background = pygame.image.load(r"sky_background.png")
 # Set up colors
 WHITE = (255,255,255)
 red = (255,0,0)
